@@ -7,27 +7,27 @@ const Experience: React.FC = () => {
             <h2 className="section-title">Experience</h2>
             <div className="timeline">
                 <div className="timeline-item">
-                    <div className="timeline-date">2023 - Present</div>
+                    <div className="timeline-date">Oct 2023 - Present</div>
                     <div className="timeline-content">
-                        <h3>Senior Frontend Engineer</h3>
-                        <h4>Tech Corp</h4>
-                        <p>Leading the frontend team in building scalable web applications using React and TypeScript. Improved performance by 40%.</p>
+                        <h3>Site Reliability Engineer</h3>
+                        <h4>Jio Platforms Limited</h4>
+                        <p>
+                            Designed and implemented observability solutions using Prometheus, Grafana, Loki, Tempo, and Elasticsearch across 100+ projects.
+                            Automated infrastructure provisioning with Terraform and Ansible, reducing management costs by ~30%.
+                            Built and maintained CI/CD pipelines using Azure DevOps and Cloud Build with security integrations.
+                        </p>
                     </div>
                 </div>
+                {/* Add Education as an experience item or separate section? Resume lists it separately.
+                    For now, I'll add it here to keep the flow or maybe just keep it as professional experience.
+                    Let's add Education as the last item to be comprehensive.
+                */}
                 <div className="timeline-item">
-                    <div className="timeline-date">2021 - 2023</div>
+                    <div className="timeline-date">Aug 2019 - Jun 2023</div>
                     <div className="timeline-content">
-                        <h3>Frontend Developer</h3>
-                        <h4>Web Solutions Inc.</h4>
-                        <p>Developed responsive websites for various clients. Collaborated with designers to implement pixel-perfect user interfaces.</p>
-                    </div>
-                </div>
-                <div className="timeline-item">
-                    <div className="timeline-date">2020 - 2021</div>
-                    <div className="timeline-content">
-                        <h3>Junior Developer</h3>
-                        <h4>Startuply</h4>
-                        <p>Assisted in the development of the MVP. Learned modern frontend frameworks and agile methodologies.</p>
+                        <h3>B.E., Computer Science</h3>
+                        <h4>Savitribai Phule Pune University</h4>
+                        <p>GPA: 8.41/10. Focused on Computer Science fundamentals.</p>
                     </div>
                 </div>
             </div>

@@ -23,12 +23,15 @@ const Contact: React.FC = () => {
                 </form>
                 <div className="contact-info">
                     <h3>Contact Information</h3>
-                    <p>Feel free to reach out for collaborations or just a friendly hello</p>
+                    <p>Open to opportunities in SRE, DevOps, and Cloud Infrastructure.</p>
                     <div className="info-item">
-                        <span>Email:</span> contact@example.com
+                        <span>Email:</span> <a href="mailto:pratik.janagle16@gmail.com">pratik.janagle16@gmail.com</a>
                     </div>
                     <div className="info-item">
-                        <span>Location:</span> San Francisco, CA
+                        <span>Phone:</span> +91 7666763212
+                    </div>
+                    <div className="info-item">
+                        <span>LinkedIn:</span> <a href="https://www.linkedin.com/in/pratik-jangale/" target="_blank" rel="noopener noreferrer">pratik-jangale</a>
                     </div>
                 </div>
             </div>

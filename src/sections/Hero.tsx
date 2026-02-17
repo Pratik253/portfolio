@@ -6,8 +6,8 @@ const Hero: React.FC = () => {
         <section id="hero" className="hero-section">
             <div className="hero-content">
                 <span className="hero-greeting">Hello, I'm</span>
-                <h1 className="hero-title">Kaustubh Wagh</h1>
-                <p className="hero-subtitle">Frontend Developer & UI/UX Enthusiast</p>
+                <h1 className="hero-title">Pratik Jangale</h1>
+                <p className="hero-subtitle">Site Reliability Engineer | DevOps | Cloud Native</p>
                 <div className="hero-actions">
                     <a href="#projects" className="btn btn-primary">View Projects</a>
                     <a href="#contact" className="btn btn-outline">Contact Me</a>

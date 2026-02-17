@@ -8,23 +8,24 @@ const About: React.FC = () => {
             <div className="about-content">
                 <div className="about-text">
                     <p>
-                        I'm a passionate developer with a knack for creating immersive web experiences.
-                        With a strong foundation in frontend technologies and a keen eye for design,
-                        I build applications that not only function flawlessly but also look stunning.
+                        I am a Site Reliability Engineer with 2.5 years of hands-on experience in designing, automating,
+                        and operating large-scale cloud-native systems. My expertise lies in Kubernetes, Terraform,
+                        CI/CD, observability (Prometheus/Grafana/Loki/Tempo), and multi-cloud infrastructure (GCP, AWS, Azure).
                     </p>
                     <p>
-                        My journey started with simple HTML pages and has evolved into building
-                        complex React applications. I'm always eager to learn new tools and frameworks
-                        to stay ahead in the fast-paced tech world.
+                        I have a proven track record in infrastructure automation, reducing management costs by ~30%,
+                        and implementing DevSecOps practices to improve reliability and security.
                     </p>
                 </div>
                 <div className="skills-grid">
-                    <div className="skill-item">React</div>
-                    <div className="skill-item">TypeScript</div>
-                    <div className="skill-item">CSS3/SASS</div>
-                    <div className="skill-item">Node.js</div>
-                    <div className="skill-item">Git</div>
-                    <div className="skill-item">UI/UX Design</div>
+                    <div className="skill-item">Kubernetes (GKE)</div>
+                    <div className="skill-item">Terraform</div>
+                    <div className="skill-item">GCP/AWS/Azure</div>
+                    <div className="skill-item">CI/CD (Azure DevOps)</div>
+                    <div className="skill-item">Prometheus/Grafana</div>
+                    <div className="skill-item">Python/Golang</div>
+                    <div className="skill-item">Docker</div>
+                    <div className="skill-item">Ansible</div>
                 </div>
             </div>
         </section>

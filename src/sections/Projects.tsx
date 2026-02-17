@@ -4,60 +4,47 @@ import '../styles/Projects.css';
 const Projects: React.FC = () => {
     return (
         <section id="projects" className="projects-section">
-            <h2 className="section-title">Projects</h2>
+            <h2 className="section-title">Selected Projects</h2>
             <div className="projects-grid">
                 <div className="project-card">
                     <div className="project-image">
-                        {/* Placeholder for project image */}
-                        <div className="placeholder-img">Project 1</div>
+                        <div className="placeholder-img">K8s Ops</div>
                     </div>
                     <div className="project-content">
-                        <h3>E-Commerce Platform</h3>
-                        <p>A full-featured e-commerce platform built with React, Node.js, and MongoDB.</p>
+                        <h3>Kubernetes Infrastructure & Observability</h3>
+                        <p>Deployed large-scale GKE clusters & integrated Mimir, Loki, Tempo for unified observability.</p>
                         <div className="project-tags">
-                            <span>React</span>
-                            <span>Node.js</span>
-                            <span>MongoDB</span>
-                        </div>
-                        <div className="project-links">
-                            <a href="#" target="_blank" rel="noreferrer">Live Demo</a>
-                            <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+                            <span>Kubernetes</span>
+                            <span>GKE</span>
+                            <span>Observability</span>
                         </div>
                     </div>
                 </div>
                 <div className="project-card">
                     <div className="project-image">
-                        <div className="placeholder-img">Project 2</div>
+                        <div className="placeholder-img">CPaaS CI/CD</div>
                     </div>
                     <div className="project-content">
-                        <h3>Task Management App</h3>
-                        <p>A collaborative task management tool with real-time updates using Socket.io.</p>
+                        <h3>CI/CD Automation for CPaaS</h3>
+                        <p>Automated builds, tests, and deployments for a multi-channel communications platform.</p>
                         <div className="project-tags">
-                            <span>TypeScript</span>
-                            <span>Firebase</span>
-                            <span>Tailwind</span>
-                        </div>
-                        <div className="project-links">
-                            <a href="#" target="_blank" rel="noreferrer">Live Demo</a>
-                            <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+                            <span>CI/CD</span>
+                            <span>Automation</span>
+                            <span>DevOps</span>
                         </div>
                     </div>
                 </div>
                 <div className="project-card">
                     <div className="project-image">
-                        <div className="placeholder-img">Project 3</div>
+                        <div className="placeholder-img">AIOps</div>
                     </div>
                     <div className="project-content">
-                        <h3>Portfolio Website</h3>
-                        <p>The website you are currently viewing. Built with performance and aesthetics in mind.</p>
+                        <h3>AIOps & Intelligent Automation</h3>
+                        <p>Implemented anomaly detection and automated incident workflows using ML-driven insights.</p>
                         <div className="project-tags">
-                            <span>Vite</span>
-                            <span>React</span>
-                            <span>CSS3</span>
-                        </div>
-                        <div className="project-links">
-                            <a href="#">Live Demo</a>
-                            <a href="#">GitHub</a>
+                            <span>AIOps</span>
+                            <span>Machine Learning</span>
+                            <span>Automation</span>
                         </div>
                     </div>
                 </div>
